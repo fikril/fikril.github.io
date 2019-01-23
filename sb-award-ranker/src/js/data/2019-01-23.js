@@ -15,7 +15,7 @@ dataSet[dataSetVersion].options = [
     {
         name: "Filter",
         key: "category",
-        tooltip: "Check one category only to avoid dumbness.",
+        tooltip: "Pick a category",
         checked: true,
         sub: [
             { name: "Anime", tooltip: "aoty", key: "anime" },
@@ -356,6 +356,321 @@ dataSet[dataSetVersion].characterData = [
         img: "https://lh3.googleusercontent.com/LgG1_x1Uk9AZEJWCybd685NuWTRw5YfSm3rqOyQwSrrmlOk3b-SzvlU0wc-jgYzP1nCKxgSTfw",
         opts: {
             category: ["girl"]
+        }
+    },
+    {
+        name:"Goro - Darling in the Franxx",
+        img:"https://lh4.googleusercontent.com/LxJEL2_m7BRt4F4LngsnMjf62JXeL_OqrI2FgaAZXuWU-2XtQfuIGWhy61g2r-TpaDh0Wc6mBA",
+        opts: {
+            category: ["boy"]
+        }
+    },
+    {
+        name:"Nitta Yoshifumi-Hinamatsuri",
+        img:"https://lh3.googleusercontent.com/Zm8ZJAoKeFgO-0CDkcf4F1jg4ielgf90EshJ54bOF89QSwgKA-maQhMTIityuzno0KBcv0zGCQ",
+        opts: {
+            category: ["boy"]
+        }
+    },
+    {
+        name:"Sanzenkai Setsuna - Island",
+        img:"https://lh3.googleusercontent.com/j7KgnbaxOeISet5ZSKY7V2jEJAKntU1I78sWV9BdyeKdpiziAOCoKvspXaF89TlHDj6u9iJfxQ",
+        opts: {
+            category: ["boy"]
+        }
+    },
+    {
+        name:"Sensei-Planet With",
+        img:"https://lh6.googleusercontent.com/5_rd-PDEr7VlgXjx2KWYKlnZRbjlXYGwBN3F4MkATaWtmAwNFo9Y0HDm0LkXSLVM0f644exV5g",
+        opts: {
+            category: ["boy"]
+        }
+    },
+    {
+        name:"Azusagawa Sakuta-Seishun Buta Yarou",
+        img:"https://lh3.googleusercontent.com/mL9uq14aWDinJ9ix_TA_8SeVdpWPJHafKGq36GK50Y7YjRjh14JCp_bSvTlIBbtQfit_bqqU_w",
+        opts: {
+            category: ["boy"]
+        }
+    },
+    {
+        name:"Tatsumi Koutarou-Zombieland Saga",
+        img:"https://lh3.googleusercontent.com/B7VUJ5H_Mhe5PULhleLlZ4dJa1njIGBAOGk-5k9QQlUt9FkY3WGYOuCdtQnqbWg6esES-E16Rg",
+        opts: {
+            category: ["boy"]
+        }
+    },
+    {
+        name:"Tempest Rimuru-Tensei shitara Slime Datta Ken",
+        img:"https://lh4.googleusercontent.com/Sryw7q40fENmR9aFAhVQpE4kjVKAP-ekB8oauUcdY8TIfvbS5Nd8Vrx3w3P0LmcVaEHuzzYaHA",
+        opts: {
+            category: ["boy"]
+        }
+    },
+    {
+        name:"Goblin Slayer-Goblin Slayer",
+        img:"https://lh6.googleusercontent.com/RsKC-0qY9_LxCFuvwnPbtw7scIn9EpPB7PsytPQr6ZjYRvaFzAVzGAFKUNfcKAf7blLS-KdBqA",
+        opts: {
+            category: ["boy"]
+        }
+    },
+    {
+        name:"Kagamihara, Sakura  - Yuru Camp△",
+        img:"https://lh6.googleusercontent.com/f9t1JkQJbN4cba9xGbvASe8Ky2xmvM7uq6U_wAorpKhxzHDlvMOdenzWFNa6Q0u9J5XjDya2cw",
+        opts: {
+            category: ["supp"]
+        }
+    },
+    {
+        name:"Gold Ship-Uma Musume",
+        img:"https://lh3.googleusercontent.com/yBZ8TrDDSSvyl9I53G6o6qn44_ypzcfLU5cOiNophOTwNgjhkFwWSvci2zWstIPaW1XBJYvH_g",
+        opts: {
+            category: ["supp"]
+        }
+    },
+    {
+        name:"Grass Wonder-Uma Musume",
+        img:"https://lh4.googleusercontent.com/2TA7txs0rlzBWRM0sFh_RPR79-khJzUZVTkrZ2bWd9W4mIYjCNatOjs9BHcE2ePzl7puIphQhQ",
+        opts: {
+            category: ["supp"]
+        }
+    },
+    {
+        name:"Futaba Rio-Seishun Buta Yarou",
+        img:"https://lh4.googleusercontent.com/rnKd8jxEo_4b_sdWJs5gH-PPQTdQ7biOr_q6Ux1QePz7Mz_zW6rKxXbs6qKpH76VDW_k5WxyWg",
+        opts: {
+            category: ["supp"]
+        }
+    },
+    {
+        name:"Makinohara Shouko-Seishun Buta Yarou",
+        img:"https://lh4.googleusercontent.com/tXmNpT4kWX_WJaF-SJNPAvrSN49ZxyPx05xcf4uMLJsIIzH1LC_Of-1SiMVebcKT7X4oRcTr7A",
+        opts: {
+            category: ["supp"]
+        }
+    },
+    {
+        name:"Gobuta-Tensei shitara Slime Datta Ken",
+        img:"https://lh4.googleusercontent.com/rBOaOgTTw6QoGjrwwGqqAwsM0L2IKYz7096Uu95Iqg7qBRgQJOmuxgGugz2HdLJzphGQP8ykUA",
+        opts: {
+            category: ["supp"]
+        }
+    },
+    {
+        name:"High Elf Archer-Goblin Slayer",
+        img:"https://lh6.googleusercontent.com/cTnIQNTzuG1ARJf7furnTihLPrccSlCLP5Ocj9aelrNKvAmSQmb1NN_rrx9yblNnugcTa7_UzQ",
+        opts: {
+            category: ["supp"]
+        }
+    },
+    {
+        name:"Flashback - MIYAVI vs. KenKen - Kokkoku",
+        img:"https://i.ytimg.com/vi/fhBA6ynorvc/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"Colors Power ni Omakasero! - Colors☆Slash - Mitsuboshi Color",
+        img:"https://i.ytimg.com/vi/c0MJNQdD1Xk/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"Clear - Maaya Sakamoto - Cardcaptor Sakura",
+        img:"https://i.ytimg.com/vi/sbwT8yJjtUQ/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"Otomodachi film-Masayoshi Ooishi -tada kun wa koi shinai",
+        img:"https://i.ytimg.com/vi/x-KKItElCIU/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"Ryusei-Aoi Eir -SAO GGO Alternative",
+        img:"https://i.ytimg.com/vi/-P4lKMP-dPw/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"Distance -Rie Murakawa -hinamatsuri",
+        img:"https://i.ytimg.com/vi/yc0Dh_zIJ4k/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"Make Debut- Team Spyca-Uma Musume: Derby Party",
+        img:"https://i.ytimg.com/vi/nuuq0Ul_-_c/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"Grand Blue - Shounan no Kaze - Grand Blue",
+        img:"https://i.ytimg.com/vi/NKt7G9ZBGyQ/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"Hoshi no Dialogue - Starlight Kukugumi - Shoujo Kageki Revue Starlight",
+        img:"https://i.ytimg.com/vi/O_x7ia2OE0M/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"Suripisu - Asoken - Asobi Asobase",
+        img:"https://i.ytimg.com/vi/dlY050Vv6iE/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"Make my Story - Lenny Code Fiction - Boku no Hero Academia S3",
+        img:"https://i.ytimg.com/vi/XhIA35OAIw4/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"Kimi no Sei-the peggies-Seishun Buta Yarou",
+        img:"https://i.ytimg.com/vi/z1PWA11Ec3E/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"UNION-OxT-SSSS.Gridman",
+        img:"https://i.ytimg.com/vi/pAyrdmrjrUI/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"17sai-Haruka to Miyuki-Irozuku Sekai no Ashita kara",
+        img:"https://i.ytimg.com/vi/RnRYvCZy4vs/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"Motetaino-Himote House Juunin Ichidou-Himote House",
+        img:"https://i.ytimg.com/vi/LqjMXfnOiJ4/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"Kimi ni Furete-Riko Azuna-Yagate Kimi ni Naru",
+        img:"https://i.ytimg.com/vi/0hgwUqC5_mM/hqdefault.jpg",
+        opts: {
+            category: ["op"]
+        }
+    },
+    {
+        name:"Fuyu Biyori - Eri Sasaki - Yuru Camp",
+        img:"https://i.ytimg.com/vi/laPwnkO0Wjk/hqdefault.jpg",
+        opts: {
+            category: ["ed"]
+        }
+    },
+    {
+        name:"Suki no Skill - Wake Up, Girls! - Death March kara Hajimaru Isekai Kyousoukyoku",
+        img:"https://i.ytimg.com/vi/jo8dT-gKG2Y/hqdefault.jpg",
+        opts: {
+            category: ["ed"]
+        }
+    },
+    {
+        name:"Torikago - XX:me - Darling in the Franxx",
+        img:"https://i.ytimg.com/vi/b18GVaTNMNA/hqdefault.jpg",
+        opts: {
+            category: ["ed"]
+        }
+    },
+    {
+        name:"Love Song-Manaka Iwami-Tada-kun wa Koi wo Shinai",
+        img:"https://i.ytimg.com/vi/764HDdCVEx8/hqdefault.jpg",
+        opts: {
+            category: ["ed"]
+        }
+    },
+    {
+        name:"Namida wa Misenai-Comic Girls-Comic Girls",
+        img:"https://i.ytimg.com/vi/hO3lSV2bOlI/hqdefault.jpg",
+        opts: {
+            category: ["ed"]
+        }
+    },
+    {
+        name:"Fly me to the Star - Starlight Kukugumi - Shoujo Kageki Revue Starlight",
+        img:"https://i.ytimg.com/vi/MQVQQyU-QSU/hqdefault.jpg",
+        opts: {
+            category: ["ed"]
+        }
+    },
+    {
+        name:"High Stepper - Yuiko Oihara - Hanebado",
+        img:"https://i.ytimg.com/vi/2K6YMCQsFD0/hqdefault.jpg",
+        opts: {
+            category: ["ed"]
+        }
+    },
+    {
+        name:"Eternal Star - Asaka - Island",
+        img:"https://i.ytimg.com/vi/BCLeTNyJeAc/hqdefault.jpg",
+        opts: {
+            category: ["ed"]
+        }
+    },
+    {
+        name:"CheerS - ClariS - Hataraku Saibou",
+        img:"https://i.ytimg.com/vi/Zy6FMS9jEt8/hqdefault.jpg",
+        opts: {
+            category: ["ed"]
+        }
+    },
+    {
+        name:"Upside Down - SHE'S - Angolmois",
+        img:"https://i.ytimg.com/vi/lZHVScHXx8E/hqdefault.jpg",
+        opts: {
+            category: ["ed"]
+        }
+    },
+    {
+        name:"Fukashigi no Carte-Cast-Seishun Buta Yarou",
+        img:"https://i.ytimg.com/vi/AVHRBAYdsCw/hqdefault.jpg",
+        opts: {
+            category: ["ed"]
+        }
+    },
+    {
+        name:"Hikari e-Franchouchou-Zombieland Saga",
+        img:"https://i.ytimg.com/vi/qgc_klPp3JE/hqdefault.jpg",
+        opts: {
+            category: ["ed"]
+        }
+    },
+    {
+        name:"youthful beautiful-Uchida Maaya-SSSS.Gridman",
+        img:"https://i.ytimg.com/vi/_9QYvSfn0Yk/hqdefault.jpg",
+        opts: {
+            category: ["ed"]
+        }
+    },
+    {
+        name:"Another colony-TRUE-Tensei shitara Slime Datta Ken",
+        img:"https://i.ytimg.com/vi/z8UGEwHJAPg/hqdefault.jpg",
+        opts: {
+            category: ["ed"]
         }
     }
     //
