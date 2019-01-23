@@ -921,44 +921,47 @@ function preloadImages() {
    * @param {number} idx 
    */
   const loadImage = (src, idx) => {
-      characterDataToSort[idx].img = src
-      // let actualPromise = () => new Promise((resolve, reject) => {
-      //     const img = new Image();
+      let actualPromise = () => new Promise((resolve, reject) => {
+          const img = new Image();
 
-      //     img.crossOrigin = 'Anonymous';
-      //     img.onload = () => {
-      //       setImageToData(img, idx);
-      //       resolve(img);
-      //     };
-      //     img.onerror = img.onabort = () => reject(src);
-      //     if ( img.complete || img.complete === undefined ) {
-      //       img.src = src;
-      //     }
-      //     img.src = src;
-      // });
+          img.crossOrigin = 'Anonymous';
+          img.onload = () => {
+            setImageToData(img, idx);
+            resolve(img);
+          };
+          img.onerror = img.onabort = () => {
+            // reject(src);
+            characterDataToSort[idx].img = src
+            resolve(src);
+          }
+          if ( img.complete || img.complete === undefined ) {
+            img.src = src;
+          }
+          img.src = src;
+      });
 
-      // const loadImageFromDB = (/** @type {CacheEntry} */cacheEntry) => {
-      //   return new Promise((resolve, reject) => {
-      //     if (cacheEntry === undefined) return reject();
-      //     const img = new Image();
-      //     img.crossOrigin = 'Anonymous';
-      //     img.src = cacheEntry.source;
-      //     characterDataToSort[idx].img = cacheEntry.source;
-      //     console.log(`Preloaded from Local DB:`, characterDataToSort[idx].name);
-      //     progressBar(`Loading Image ${++imagesLoaded}`, Math.floor(imagesLoaded * 100 / totalLength));
-      //     resolve(img);
-      //   });
-      // };
+      const loadImageFromDB = (/** @type {CacheEntry} */cacheEntry) => {
+        return new Promise((resolve, reject) => {
+          if (cacheEntry === undefined) return reject();
+          const img = new Image();
+          img.crossOrigin = 'Anonymous';
+          img.src = cacheEntry.source;
+          characterDataToSort[idx].img = cacheEntry.source;
+          console.log(`Preloaded from Local DB:`, characterDataToSort[idx].name);
+          progressBar(`Loading Image ${++imagesLoaded}`, Math.floor(imagesLoaded * 100 / totalLength));
+          resolve(img);
+        });
+      };
       
-      // return db.cache.where({
-      //   name: characterDataToSort[idx].name,
-      //   hash: hash(src)
-      // }).first()
-      //   .then(loadImageFromDB)
-      //   .catch( (error) => {
-      //     if(error !== undefined) console.log(error);
-      //     return Promise.race([actualPromise(), timeoutPromise]);
-      //   });
+      return db.cache.where({
+        name: characterDataToSort[idx].name,
+        hash: hash(src)
+      }).first()
+        .then(loadImageFromDB)
+        .catch( (error) => {
+          if(error !== undefined) console.log('error', error);
+          return Promise.race([actualPromise(), timeoutPromise]);
+        });
   };
 
   const setImageToData = (/** @type {HTMLImageElement} */img, idx) => {
@@ -978,8 +981,8 @@ function preloadImages() {
 
   const promises = characterDataToSort.map(( /** @typedef {CharData} */char, idx) => loadImage(imageRoot + char.img, idx));
   return Promise.all(promises).catch((err) => {
-    console.log(err);
-    throw err;
+    console.log('error', err);
+    // throw err;
   });
 }
 
