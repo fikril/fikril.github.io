@@ -510,7 +510,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Kawaki wo Ameku - Minami - Domestic no Kanojo",
-        img: "",
+        img: "src/assets/aoty19/op/minami.jpg",
         opts: {
             in2019: ["op"],
             in2018: []
@@ -518,7 +518,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Touch off - Uverworld - Yakusooku no Neverland",
-        img: "",
+        img: "src/assets/aoty19/op/touchoff.jpg",
         opts: {
             in2019: ["op"],
             in2018: []
@@ -526,7 +526,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "KEMURIKUSA - Nano -Kemurikusa",
-        img: "",
+        img: "src/assets/aoty19/op/kemurikusa.jpg",
         opts: {
             in2019: ["op"],
             in2018: []
@@ -534,7 +534,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Endororu - Yuusha Party - Endro",
-        img: "",
+        img: "src/assets/aoty19/op/endroll.jpg",
         opts: {
             in2019: ["op"],
             in2018: []
@@ -542,7 +542,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Ziyoou-vachi - Kaen -Dororo",
-        img: "",
+        img: "src/assets/aoty19/op/bukansuperstar.jpg",
         opts: {
             in2019: ["op"],
             in2018: []
@@ -550,7 +550,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Kiss Me - Carole & Tuesday (Nai Br.XX & Celeina Ann) - Carole & Tuesday",
-        img: "",
+        img: "src/assets/aoty19/op/c&t.jpg",
         opts: {
             in2019: ["op"],
             in2018: []
@@ -558,7 +558,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "WONDERFUL WONDER - EDOGA-SULLIVAN - Midara na Ao-chan wa Benkyou ga Dekinai",
-        img: "",
+        img: "src/assets/aoty19/op/ww.jpg",
         opts: {
             in2019: ["op"],
             in2018: []
@@ -566,7 +566,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Massara - Kana Boon - Sarazanmai",
-        img: "",
+        img: "src/assets/aoty19/op/massara.jpg",
         opts: {
             in2019: ["op"],
             in2018: []
@@ -574,7 +574,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Isekai Quartet - Ainz (Satoshi Hino), Kazuma (Jun Fukushima), Subaru (Yuusuke Kobayashi), Tanya (Aoi Yuuki) - isekai quartet",
-        img: "",
+        img: "src/assets/aoty19/op/isekai.jpg",
         opts: {
             in2019: ["op"],
             in2018: []
@@ -582,7 +582,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Otome-domo yo - CHiCO with HoneyWorks - Araburu",
-        img: "",
+        img: "src/assets/aoty19/op/otome.jpg",
         opts: {
             in2019: ["op"],
             in2018: []
@@ -590,7 +590,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Rakuen Toshi - Masayoshi Ooishi - Cop Craft",
-        img: "",
+        img: "src/assets/aoty19/op/rakuentoshi.jpg",
         opts: {
             in2019: ["op"],
             in2018: []
@@ -598,7 +598,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Share the Light - Run, Girls, Run! - Assassin's Pride",
-        img: "",
+        img: "src/assets/aoty19/op/rgr.jpg",
         opts: {
             in2019: ["op"],
             in2018: []
@@ -606,7 +606,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Stay With Me - Seven Billion Dots - GBF",
-        img: "",
+        img: "src/assets/aoty19/op/gbf.jpg",
         opts: {
             in2019: ["op"],
             in2018: []
@@ -614,7 +614,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Binary Star - SawanoHiroyuki[nZk]:Uru - Ginga Eiyuu Densetsu: Die Neue These",
-        img: "",
+        img: "src/assets/aoty19/op/sawano.jpg",
         opts: {
             in2019: ["op"],
             in2018: []
@@ -622,7 +622,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Wonder Caravan - Minase Inori - Endro",
-        img: "",
+        img: "src/assets/aoty19/ed/WonderCaravan.jpg",
         opts: {
             in2019: ["ed"],
             in2018: []
@@ -630,7 +630,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Happy Happy Friends - Wataten Five -Wataten",
-        img: "",
+        img: "src/assets/aoty19/ed/wataten.jpg",
         opts: {
             in2019: ["ed"],
             in2018: []
@@ -638,7 +638,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Chikatto Chika Chika - Kohara Konomi - Kaguya Sama",
-        img: "",
+        img: "src/assets/aoty19/ed/chika.jpg",
         opts: {
             in2019: ["ed"],
             in2018: []
@@ -646,7 +646,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Hold Me Now - Carole & Tuesday - Carole & Tuesday",
-        img: "",
+        img: "src/assets/aoty19/ed/c&t.jpg",
         opts: {
             in2019: ["ed"],
             in2018: []
@@ -654,7 +654,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Stand by Me - The Peggies - Sarazanmai",
-        img: "",
+        img: "src/assets/aoty19/ed/sbm.jpg",
         opts: {
             in2019: ["ed"],
             in2018: []
@@ -662,7 +662,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Ne, Issho ni Kaero. - Hitori Bocchi - Hitoribocchi no Marumaru Seikatsu",
-        img: "",
+        img: "src/assets/aoty19/ed/kaero.jpg",
         opts: {
             in2019: ["ed"],
             in2018: []
@@ -670,7 +670,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Veil - Keina Suda - Fireforce",
-        img: "",
+        img: "src/assets/aoty19/ed/veil.jpg",
         opts: {
             in2019: ["ed"],
             in2018: []
@@ -678,7 +678,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Negai - Uru - Granbelm",
-        img: "",
+        img: "src/assets/aoty19/ed/uru.jpg",
         opts: {
             in2019: ["ed"],
             in2018: []
@@ -686,7 +686,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Kiseki - Takahashi Rie - Takagi-san",
-        img: "",
+        img: "src/assets/aoty19/ed/takagi.jpg",
         opts: {
             in2019: ["ed"],
             in2018: []
@@ -694,7 +694,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Konayuki - Takahashi Rie - Karakai Jouzu no Takagi-san",
-        img: "",
+        img: "src/assets/aoty19/ed/takagi.jpg",
         opts: {
             in2019: ["ed"],
             in2018: []
@@ -702,7 +702,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Tranquility - SawanoHiroyuki[nZk]:Anly - Ginga Eiyuu Densetsu: Die Neue These",
-        img: "",
+        img: "src/assets/aoty19/ed/sawano.jpg",
         opts: {
             in2019: ["ed"],
             in2018: []
@@ -710,7 +710,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Koukai no Uta - Sayuri - Boku no Hero Academia",
-        img: "",
+        img: "src/assets/aoty19/ed/bokuaka.jpg",
         opts: {
             in2019: ["ed"],
             in2018: []
@@ -718,7 +718,7 @@ dataSet[dataSetVersion].characterData = [
     },
     {
         name: "Nemurenai Honoo - Yurika - Beastars",
-        img: "",
+        img: "src/assets/aoty19/ed/beastars.jpg",
         opts: {
             in2019: ["ed"],
             in2018: []
